@@ -64,15 +64,3 @@ docker run \
 | -e WANIKANI_API_TOKEN=${WANIKANI_API_TOKEN} |
 | -e GOTIFY_API_URI=${GOTIFY_API_URI}         |
 | -e GOTIFY_API_TOKEN=${GOTIFY_API_TOKEN}     |
-
-## Environment variables from files
-
-You can set any environment variable from a file by using a special prepend FILE__.
-
-As an example:
-
-```sh
-docker run \
-  --name="wanikaninotify" \
-  -e FILE__PASSWORD=./.env
-```
