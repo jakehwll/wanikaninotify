@@ -1,7 +1,8 @@
 # wanikaninotify
 
 > **Please note.**
-> This repository is maintenance mode, there shouldn't be any further development to this project, as it simply works!
+>
+> This repository/project is maintenance mode, there shouldn't be any further development to this project, as it simply works!
 
 This is a script for [WaniKani](https://www.wanikani.com/) to send notifications about your reviews and lessons hourly, should more than zero.
 
@@ -10,6 +11,8 @@ The following tech is used.
 * [WaniKani](https://www.wanikani.com/) (for gathering lessons/reviews count).
 * [Gotify](https://gotify.net/) (for sending notifications to your phone).
 * [Docker](https://www.docker.com/) (for easy deployment).
+
+![Project Preview](./preview.jpg)
 
 ## Supported Architectures
 
@@ -50,7 +53,7 @@ command.
 export WANIKANI_API_TOKEN=""
 export GOTIFY_API_URI=""
 export GOTIFY_API_TOKEN=""
-# todo
+# the magic.
 docker run \
   --name="wanikaninotify" \
   -e WANIKANI_API_TOKEN=${WANIKANI_API_TOKEN} \
