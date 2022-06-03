@@ -33,7 +33,7 @@ docker-compose (recommended).
 version: "3"
 services:
   waninotify:
-    image: https://ghcr.io/jakehwll/wanikaninotify
+    image: ghcr.io/jakehwll/wanikaninotify
     container_name: wanikaninotify
     environment:
       - WANIKANI_API_TOKEN= # https://www.wanikani.com/settings/personal_access_tokens
