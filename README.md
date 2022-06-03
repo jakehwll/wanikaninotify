@@ -1,7 +1,7 @@
 # wanikaninotify
 
 > **Please note.**
-> This repoistory is maintenance mode, there shouldn't be any further development to this project, as it simply works!
+> This repository is maintenance mode, there shouldn't be any further development to this project, as it simply works!
 
 This is a script for [WaniKani](https://www.wanikani.com/) to send notifications about your reviews and lessons hourly, should more than zero.
 
