@@ -59,8 +59,8 @@ docker run \
 
 ## Parameters
 
-| Parameter                                   | Function |
-| ------------------------------------------- | -------- |
-| -e WANIKANI_API_TOKEN=${WANIKANI_API_TOKEN} |
-| -e GOTIFY_API_URI=${GOTIFY_API_URI}         |
-| -e GOTIFY_API_TOKEN=${GOTIFY_API_TOKEN}     |
+| Parameter                                   | Function                                                                                                      |
+| ------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| -e WANIKANI_API_TOKEN=""                    | The token from your [Wanikani Account for the API](https://www.wanikani.com/settings/personal_access_tokens). |
+| -e GOTIFY_API_URI=""                        | The Base URL from your Gotify Instance.                                                                       |
+| -e GOTIFY_API_TOKEN=""                      | The Application Token from your Gotify Instance                                                               |
