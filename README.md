@@ -1,12 +1,15 @@
 # wanikaninotify
 
+> **Please note.**
+> This repoistory is maintenance mode, there shouldn't be any further development to this project, as it simply works!
+
 This is a script for [WaniKani](https://www.wanikani.com/) to send notifications about your reviews and lessons hourly, should more than zero.
 
 The following tech is used.
 
-* WaniKani (for gathering lessons/reviews count).
-* Gotify (for sending notifications to your phone).
-* Docker (for easy deployment).
+* [WaniKani](https://www.wanikani.com/) (for gathering lessons/reviews count).
+* [Gotify](https://gotify.net/) (for sending notifications to your phone).
+* [Docker](https://www.docker.com/) (for easy deployment).
 
 ## Supported Architectures
 
